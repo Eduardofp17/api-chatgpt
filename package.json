@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/api.test.js",
+    "dev": "node src/api.js",
+    "test:dev": "node --test --watch src/api.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
